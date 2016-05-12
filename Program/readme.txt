@@ -1,8 +1,11 @@
-Due to the fact that presented .exe file compiled using static links to all needed library, the presented .exe file maybe don't run on your machine.
+Due to the fact that presented .exe file compiled using static links to all needed library, 
+the presented .exe file maybe don't run on your machine.
 
 It is not critical!
 
-The problem lies in the difference of the compilers on Your machine, and the machine which was statically compiled this .exe file.
+The problem lies in the difference of the compilers and the different set of libraries on your machine, 
+and the machine where was statically compiled this .exe file.
+
 And, of course, maybe problem in the static links compiling :)
 
 This problem can be solved in this way:
